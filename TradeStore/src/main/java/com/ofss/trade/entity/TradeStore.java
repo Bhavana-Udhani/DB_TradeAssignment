@@ -116,4 +116,18 @@ public class TradeStore {
         this.createdDate = createdDate;
         this.expired = expired;
     }
+
+    @Override
+    public String toString() {
+        return "TradeStore{" +
+                "id=" + id +
+                ", tradeId='" + tradeId + '\'' +
+                ", version=" + version +
+                ", counterPartyId='" + counterPartyId + '\'' +
+                ", bookId='" + bookId + '\'' +
+                ", maturityDate=" + maturityDate +
+                ", createdDate=" + createdDate +
+                ", expired=" + expired +
+                '}';
+    }
 }
